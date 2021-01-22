@@ -74,9 +74,8 @@ Nếu câu lệnh trên không hoạt động thì chạy lệnh `sudo apt-get i
 Resquest data khi không sử dụng bộ nhớ đệm(Cache).
 
 ![Nocache](image/Nocahing.png)
-
 Resquest data khi sử dụng bộ nhớ đệm(Cache).
-  
+
 ![Nocache](image/withCatching.png)
 
 
@@ -87,7 +86,7 @@ Vậy giả sử có 100 người như Jide thì sẽ mất rất nhiều thời
 - Trong ví dụ thứ 2 về sử dụng bộ nhớ đệm(Cache).
 Trong lần yêu cầu đầu tiên trong bộ nhớ đệm không có dữ liệu sẵn để phản hồi thì sẽ thực hiện lấy dữ liệu từ database(10s) nhưng từ những lần yêu cầu tiếp theo đã có dữ liệu nằm trong cache nên không cần lấy dữ liệu từ database nữa(5s). Cách này giúp máy chủ k cần xử lý những tác vụ như thế từ 1 người nhiều lần và tốc độ phản hồi cũng nhanh hơn vì rút gọn được thao tác xử lý, giảm chi phí máy chủ.
 
-## Redis là gì?
+## Redis set get update delete
 
 ### 1. Redis SET
 
